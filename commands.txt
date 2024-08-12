@@ -1,0 +1,9 @@
+# set up the docker compose and app
+```docker compose run django_server django-admin startproject core .```
+
+This ends up creating a psql container, the django container dies.
+
+'''docker compose up```
+
+
+```psql thebgacademy -U BGAdmin```
